@@ -1,0 +1,217 @@
+.menu{
+background-color: #44085c;
+border-radius: 15px;
+border-top-left-radius:0px ;
+color: white;
+font-weight: bold;
+padding: 10px 20px;
+position: fixed;
+top: 0;
+left: 0;
+height: 100%;
+width: 150px;
+}
+.menu a{
+text-decoration: solid;
+box-sizing: border-box;
+display: block;
+width: 100%;
+padding: 8px 16px;
+color: inherit;
+}
+.menu a:hover{
+color: black;
+background-color: white;
+}
+h1{
+font-weight: 400;
+font-size: 64px;
+}
+h2{
+color:#306 ;
+font-size: 48px;
+font-weight: 400;
+margin: 10px 0;
+}
+.main{
+margin-left: 360px;
+margin-right: 40px;
+margin-top: 80px;
+}
+body{
+margin: 0;
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+line-height: 1.5;
+}
+.images img {
+width: 45%;
+border-radius: 10px;
+margin: 5px;
+opacity: 0.7;
+}
+.images img:hover{
+opacity: 1;
+}
+hr{
+width: 100%;
+border: 5px solid #306;
+border-radius: 4px;
+margin: 20px 0;
+}
+ .member{
+ padding: 8px 8px;
+ width: 30%;
+ display: inline-block;
+ }
+ .member img{
+ filter: grayscale(30%);
+ border-radius: 10px;
+ width: 100%;
+ }
+.member .position{
+color: grey;
+}
+.member .description{
+background-color:#f1f1f1 ;
+border-radius: 5px;
+padding: 2px 16px 5px;
+}
+.mailto{
+background-color: #44085c;
+color: white;
+box-sizing: border-box;
+text-align: center;
+display: inline-block;
+padding: 0 8px;
+
+vertical-align: middle;
+border-bottom: 0;
+width: 49%;
+border: 0;
+}
+.mailto ul{
+background-color: #f1f1f1;
+border-radius: 10px;
+border: 0;
+margin: 0;
+color: black;
+list-style-type: none;
+padding: 0;
+}
+.mailto .basic{
+background-color:#44085c ;
+color: white;
+border-radius: 10px;
+font-size: 24px;
+}
+.mailto li{
+border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+    border-radius:10px;
+    padding: 16px 0;
+}
+.mailto button{
+color: #45015d;
+    background-color: white;
+    border-radius:20px;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+}
+.mailto .price{
+font-size: 30px;
+font-weight: 400;
+}
+.mailto .day{
+opacity: 0.7;
+}
+.mailto button:hover{
+    color: white;
+    background-color: #45015d;
+}
+.pro{
+background-color:#45015d;
+color: white;
+box-sizing: border-box;
+text-align: center;
+display: inline-block;
+padding: 0 8px;
+outline: none;
+vertical-align: middle;
+border-bottom: 0;
+width: 49%;
+border: 0;
+}
+.pro ul{
+background-color: #f1f1f1;
+border-radius: 10px;
+border: 0;
+margin: 0;
+color: black;
+list-style-type: none;
+padding: 0;
+}
+.pro .name{
+background-color:#f1453d ;
+color: white;
+border-radius: 10px;
+font-size: 24px;
+}
+.pro li{
+border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+    border-radius:10px;
+    padding: 16px 0;
+}
+.pro button{
+color: #45015d;
+    background-color:#f1453d ;
+    border-radius:20px;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+}
+.pro .price{
+font-size: 30px;
+font-weight: 400;
+}
+.pro.day{
+opacity: 0.7;
+}
+.pro button:hover{
+    color: white;
+    background-color: #45015d;
+}
+#contact input{
+border: 1px solid #ccc;
+outline: none;
+padding: 8px;
+display: block;
+width: 100%;
+cursor: pointer;
+box-sizing: border-box;
+font-size: 16px;
+}
+#contact button{
+width: 100%;
+border-radius:9px ;
+background-color: #44085c;
+color: white;
+padding: 12px 14px;
+outline: none;
+font-size: 16px;
+}
+#footer{
+text-align: right;
+padding: 32px 58px 32px;
+}
